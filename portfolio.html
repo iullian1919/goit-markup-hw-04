@@ -20,7 +20,7 @@
   </head>
   <body>
     <!--Portfolio header section-->
-    <header class="global-header portfolio-global-header">
+    <header class="global-header">
       <div class="container header-container">
         <a class="logo header-logo" href="index.html">
           <span class="logo logo-active">Web</span><span>Studio</span></a
@@ -34,10 +34,20 @@
         </nav>
         <ul class="contacts-list">
           <li>
-            <a class="contacts-list-item" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="contacts-list-item" href="mailto:info@devstudio.com">
+              <svg class="icon-envelope">
+                <use href="./images/icons.svg#icon-envelope" />
+              </svg>
+              info@devstudio.com</a
+            >
           </li>
           <li>
-            <a class="contacts-list-item" href="tel:+12127724150">+1 212-772-4150</a>
+            <a class="contacts-list-item" href="tel:+12127724150"
+              ><svg class="icon-smartphone">
+                <use href="./images/icons.svg#icon-smartphone" />
+              </svg>
+              +1 212-772-4150</a
+            >
           </li>
         </ul>
       </div>
@@ -153,17 +163,64 @@
     </main>
     <!-- Contacts section-->
     <footer class="global-footer">
-      <div class="container">
-        <a class="logo footer-logo" href="portfolio.html">
-          <span class="logo logo-active">Web</span><span class="logo logo-accent">Studio</span></a
-        >
-        <address class="global-address">695 Park Ave, NY 10065, USA</address>
-        <ul class="footer-contacts-list">
-          <li>
-            <a class="contacts-list-item" href="mailto:info@devstudio.com">info@devstudio.com</a>
-          </li>
-          <li><a class="contacts-list-item" href="tel:+12127724150">+1 212-772-4150</a></li>
-        </ul>
+      <div class="container footer-container">
+        <div class="container-contacts">
+          <a class="logo footer-logo" href="index.html">
+            <span class="logo logo-active">Web</span><span class="logo logo-accent">Studio</span></a
+          >
+          <address class="global-address">695 Park Ave, NY 10065, USA</address>
+          <ul class="footer-contacts-list">
+            <li>
+              <a class="footer-contacts-list-item" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="footer-contacts-list-item" href="tel:+12127724150">+1 212-772-4150</a>
+            </li>
+          </ul>
+        </div>
+        <div class="container-footer-social-links">
+          <h4 class="footer-social-links">fiind us on</h4>
+          <div class="icons-container">
+            <div class="icons-list">
+              <div class="icon-footer">
+                <a href="https://instagram.com" class="icon-footer" aria-label="Instagram">
+                  <svg>
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="icons-list">
+              <div class="icon-footer">
+                <a href="https://twitter.com" class="icon-footer" aria-label="Twitter">
+                  <svg>
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="icons-list">
+              <div class="icon-footer">
+                <a href="https://facebook.com" class="icon-footer" aria-label="Facebook">
+                  <svg>
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="icons-list">
+              <div class="icon-footer">
+                <a href="https://linkedin.com" class="icon-footer" aria-label="Linkedin">
+                  <svg>
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </footer>
   </body>
